@@ -1,2 +1,30 @@
 # 2021Fall-BIOC-6223
 This is the repository for BIOC-6223, Introduction to Bioinformatics.
+{
+"Gene Catalog":[
+{
+"Gene":"TP53",
+"Base Pairs":"19149"
+"Accession Number":"7157"
+}
+{
+"Gene":"IL6",
+"Base Pairs":"6114"
+"Accession Number":"3569"
+}
+{
+"Gene":"DNMT1",
+"Base Pairs":"61,608"
+"Accession Number":"1786"
+}
+{
+"Gene":"IFNB1",
+"Base Pairs":"839"
+"Accession Number":"3456"
+}
+{
+"Gene":"CCL5",
+"Base Pairs":"8870"
+"Accession Number":"6352"
+}
+}
