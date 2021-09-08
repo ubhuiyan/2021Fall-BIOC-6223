@@ -1,0 +1,35 @@
+{
+"title": "Gene Catalog"
+"required":[
+{"TP53":[
+{"Name":"TP53"}
+{"Base Pairs":1970}
+{"Accession Number":7157}
+]
+}
+{"IL6":[
+{"Name":"IL6"}
+{"Base Pairs":6114}
+{"Accession Number":3569}
+]
+}
+{"DNMT1":[
+{"Name":"DNMT1"}
+{"Base Pairs":61608}
+{"Accession Number":1786}
+]
+}
+{"IFNB1":[
+{"Name":"IFNB1"}
+{"Base Pairs":839}
+{"Accession Number":3456}
+]
+}
+{"CCL5":[
+{"Name":"CCL5"}
+{"Base Pairs":8870}
+{"Accession Number":6352}
+]
+}
+]
+}
