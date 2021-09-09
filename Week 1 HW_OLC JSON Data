@@ -1,0 +1,27 @@
+[
+  {
+          "Name": "TP53",
+          "Base Pairs": 1970,
+          "Accession Number": "NC_000017.11"
+        },
+        {
+          "Name": "IL6",
+          "Base Pairs": 6114,
+          "Accession Number": "NC_000007.14"
+        },
+        {
+          "Name": "DNMT1",
+          "Base Pairs": 61608,
+          "Accession Number": "NC_000019.10"
+        },
+        {
+          "Name": "IFNB1",
+          "Base Pairs": 839,
+          "Accession Number": "NC_000009.12"
+        },
+        {
+          "Name": "CCL5",
+          "Base Pairs": 8870,
+          "Accession Number": "NC_000017.11"
+        }
+ ]
