@@ -1,0 +1,17 @@
+{
+"$schema" : "$schema is http://json-schema.org/draft-07/schema#", 
+"$id" : 
+"title" : "Bioinformatics Homework", 
+"description" : "Listed genes with their accession number and base pair length", 
+"type" : "object", 
+"properties" : {
+  "Gene Data" : {
+    "type" : "array", 
+      "items" : [
+ {
+    "type" : "object", 
+    "properties" : {
+    "Gene1" : {
+    "type" : "String"
+ }
+    
