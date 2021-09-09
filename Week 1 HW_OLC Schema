@@ -1,10 +1,10 @@
 {
-	"$schema": "https://json-schema.org/draft/2019-09/schema#",
-    "$id" : "https://github.com/olivialynn9/2021Fall-BIOC 6223/blob/main/Week%201%20HW_OLC%20JSON%20Data",
-     "title" : "Gene Catalog",
-     "description": "Information for 5 Genes",
-     "type": "array",
-     "required":["Name","Base Pairs","Accession Number"],
+"$schema": "https://json-schema.org/draft/2019-09/schema#",
+"$id" : "https://github.com/olivialynn9/2021Fall-BIOC 6223/blob/main/Week%201%20HW_OLC%20JSON%20Data",
+"title" : "Gene Catalog",
+"description": "Information for 5 Genes",
+"type": "array",
+"required":["Name","Base Pairs","Accession Number"],
     "properties": {
       "Name": {
         "description":"name of the gene",
