@@ -1,0 +1,34 @@
+{
+"Genes" : [
+{
+"definition" : "Homo sapiens cut like homeobox 1 (CUX1), RefSeqGene (LRG_1123) on chromosome 7",
+"abbreviation" : "Cux1", 
+"bp" : 475056,
+"accession number" : "NG_029476",
+}, 
+{
+"definition" : "Homo sapiens slit guidance ligand 2 (SLIT2), RefSeqGene on chromosome 4",
+"abbreviation" : "Slit2", 
+"bp" : 375637,
+"accession number" : "NG_047105", 
+},
+{
+"definition" : "Homo sapiens troponin C1, slow skeletal and cardiac type (TNNC1), RefSeqGene (LRG_378) on chromosome 3",
+"abbreviation" : "Tnnc1", 
+"bp" : 9951,
+"accession number" : "NG_008963",
+}, 
+{
+"definition" : "Homo sapiens signal peptide, CUB domain and EGF like domain containing 1 (SCUBE1), RefSeqGene on chromosome 22",
+"abbreviation" : "Scube1", 
+"bp" : 153109,
+"accession number" : "NG_029056",
+}, 
+{
+"definition" : "Homo sapiens apolipoprotein E (APOE), RefSeqGene on chromosome 19; nuclear gene for mitochondrial product",
+"abbreviation" : "APOE", 
+"bp" : 10612,
+"accession number" : "NG_007084",
+}
+]
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$id" : "https://raw.githubusercontent.com/klangstonn23/HW1/main/Schema",
+  "type": "object",
+  "title" : "Genes", 
+  "description" : "Genes from NCBI Nucleotide",  
+  "properties": {
+    "Genes": {
+      "type": "array",
+      "description" : "Details of the genes from NCBI Nucleotide",
+      "items": {
+          "type": "object",
+          "description" : "Definition, abbreviation, bp, and accession number of genes",
+           "required": [
+            "definition",
+            "abbreviation",
+            "bp",
+            "accession number"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "description" : "Abbreviation of gene name",
+              "examples" : [ "Scube1", "Cux1" ]
+            },
+            "bp": {
+              "type": "integer",
+              "description" : "Number of bp of each gene",
+              "examples" : [ 10612, 153109 ], 
+            },
+            "accession number": {
+              "type": "string",
+              "description" : "accession number of each gene",
+           "examples" : ["NG_007084", "NG_029056"]
+            },
+             "definition": {
+              "type": "string",
+              "description" : "full name of sequence",
+           "examples" : ["Homo sapiens apolipoprotein E (APOE), RefSeqGene on chromosome 19; nuclear gene for mitochondrial product", "Homo sapiens signal peptide, CUB domain and EGF like domain containing 1 (SCUBE1), RefSeqGene on chromosome 22"]
+           }
+          },
+        }
+      }
+    }
+  }
