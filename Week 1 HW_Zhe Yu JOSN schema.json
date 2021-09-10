@@ -24,11 +24,6 @@
 			"type": "string",
 			"description": "the official number provided by NCBI that can be used to access the gene",
 			"example": "U20860"
-		},
-		"gene type": {
-			"type": "string",
-			"description": "whether the information comes from DNA or mRNA",
-			"example": "DNA"
 		}
 	}
 }
