@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/cgrubb26/2021Fall-BIOC-6223/main/cgrubb_week1.json",
+    "type": "object",
+    "title": "5 Random Genes",
+    "description": "5 Genes chosen at random from NCBI nucleotide",
+    "required": [
+      "name",
+      "bp_length",
+      "accession_number"
+    ],
+    "properties": {
+        "name": {
+          "type": "string"
+         },
+         "bp_length": {
+          "type": "string"
+         },
+         "accession_number": {
+          "type": "string"
+         }
+        }
+}

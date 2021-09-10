@@ -1,0 +1,23 @@
+{
+  "data" : [{
+    "name" : "SLC2A1",
+    "bp" : "40802",
+    "accession_number" : "NG_008232"
+  },{
+    "name" : "KRAS proto-oncogene",
+    "bp" : "53215",
+    "accession_number" : "NG_007524"
+  },{
+    "name" : "tumor p53",
+    "bp" : "32772",
+    "accession_number" : "NG_017013"
+  },{
+    "name" : "VEGFA",
+    "bp" : "23272",
+    "accession_number" : "NG_008732"
+  },{
+    "name" : "MTHFR",
+    "bp" : "27374",
+    "accession_number" : "NG_013351"
+  }]
+}
