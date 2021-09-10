@@ -1,0 +1,34 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://raw.githubusercontent.com/Zhe-Yu-2021/Week-1-HW_ZY-JSON/main/Week%201%20HW_ZY%20JSON%20schema.json",
+	"type": "array",
+	"title": "angiotensin related gene",
+	"description": "human genes related to the angiotensin peptide, including the gene of the original peptide, the enzymes needed for peptide clipping and the peptide receptors",
+	"required": [
+		"name",
+		"length in bp",
+		"accession number"
+	],
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "name of the gene",
+			"example": "Human angiotensin II type 2 receptor"
+		},
+		"length in bp": {
+			"type": "number",
+			"description": "the length of the gene measured in bp ",
+			"example": "5293 "
+		},
+		"accession number": {
+			"type": "string",
+			"description": "the official number provided by NCBI that can be used to access the gene",
+			"example": "U20860"
+		},
+		"gene type": {
+			"type": "string",
+			"description": "whether the information comes from DNA or mRNA",
+			"example": "DNA"
+		}
+	}
+}
