@@ -1,23 +1,23 @@
 {
   "data" : [{
-    "name" : "RAF1",
-    "bp" : "",
-    "accession_number" : ""
+    "name" : "SLC2A1",
+    "bp" : "40802",
+    "accession_number" : "NG_008232"
   },{
-    "name" : "",
-    "bp" : "",
-    "accession_number" : ""
+    "name" : "KRAS proto-oncogene",
+    "bp" : "53215",
+    "accession_number" : "NG_007524"
   },{
-    "name" : "",
-    "bp" : "",
-    "accession_number" : ""
+    "name" : "tumor p53",
+    "bp" : "32772",
+    "accession_number" : "NG_017013"
   },{
-    "name" : "",
-    "bp" : "",
-    "accession_number" : ""
+    "name" : "VEGFA",
+    "bp" : "23272",
+    "accession_number" : "NG_008732"
   },{
-    "name" : "",
-    "bp" : "",
-    "accession_number" : ""
+    "name" : "MTHFR",
+    "bp" : "27374",
+    "accession_number" : "NG_013351"
   }]
 }
