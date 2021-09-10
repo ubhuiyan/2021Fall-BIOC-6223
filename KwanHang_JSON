@@ -1,0 +1,29 @@
+{
+"Genes" : [ 
+{
+"definition" : "Rat pineal gland phosducin mRNA, complete cds",
+"bp" : 1214
+"accession number" : "M60738",
+},
+{
+"definition" : "148 chicken pineal gland library Gallus gallus cDNA, mRNA sequence",
+"bp" : 733
+"accession number" : "CF937165",
+},
+{
+"definition" : "Homo sapiens pineal gland estrogen receptor alpha splice variant (ESR1) mRNA, partial cds, alternatively spliced",
+"bp" : 184
+"accession number" : "FJ011558",
+},
+{
+"definition" : "Salmo salar pineal gland rod-like opsin mRNA, complete cds",
+"bp" : 1977
+"accession number" : "AF201469",
+},
+{
+"definition" : "Gallus gallus N-acetyltransferase, pineal gland isozyme NAT-10 (PNAT10), mRNA",
+"bp" : 2155
+"accession number" : "NM_205340",
+}
+]
+}
