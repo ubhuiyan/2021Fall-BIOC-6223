@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-07/schema#",
-	"$id": "https://raw.githubusercontent.com/Zhe-Yu-2021/Week-1-HW_ZY-JSON/main/Week%201%20HW_ZY%20JSON%20schema.json",
+	"$id": "https://raw.githubusercontent.com/Zhe-Yu-2021/2021Fall-BIOC-6223/main/Week%201%20HW_Zhe%20Yu%20JOSN%20schema.json",
 	"type": "array",
 	"title": "angiotensin related gene",
 	"description": "human genes related to the angiotensin peptide, including the gene of the original peptide, the enzymes needed for peptide clipping and the peptide receptors",
