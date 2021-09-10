@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id" : "https://raw.githubusercontent.com/dcmkv2/HW1/main/Schema",
+  "type": "object",
+  "title" : "Genes", 
+  "description" : "Genes from NCBI Nucleotide",  
+  "properties": {
+    "Genes": {
+      "type": "array",
+      "description" : "Details of the genes from NCBI Nucleotide",
+      "items": {
+          "type": "object",
+          "description" : "Definition, bp, and accession number of genes",
+           "required": [
+            "definition",
+            "bp",
+            "accession number"
+          ],
+          "properties": {
+            "definition": {
+              "type": "string",
+              "description" : "Full gene name on NCBI",
+              "examples" : [ "Rat pineal gland phosducin mRNA, complete cds", "Salmo salar pineal gland rod-like opsin mRNA, complete cds" ]
+            },
+            "bp": {
+              "type": "integer",
+              "description" : "Number of base pairs of each gene",
+              "examples" : [ 1977, 2155 ], 
+            },
+            "accession number": {
+              "type": "string",
+              "description" : "accession number of each gene pn NCBI",
+           "examples" : ["M60738", "CF937165"],
+            },
+           }
+          }
+        }
+      }
+    }
+  }
