@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://raw.githubusercontent.com/kmartinez834/2021Fall-BIOC-6223/main/WEEK%201%20HW_kmartinez_genes_schema.json",
+    "type": "object",
+    "title": "Gene List",
+    "description": "Structured field for description of base pair length and accession number of a gene.",
+    "required": [
+        "genes"
+    ],
+    "properties": {
+        "genes": {
+            "type": "array",
+            "description": "Selected genes from NCBI neucleotide database.",
+            "items": {
+                "type": "object",
+                "description": "Gene details including name, base pair length and accession number.",
+                "required": [
+                    "name",
+                    "bp length",
+                    "accession number"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "Name or abbreviation of gene.",
+                        "examples": [
+                            "Homo sapiens partial HLA-A gene for MHC class I antigen"
+                        ]
+                    },
+                    "bp length": {
+                        "type": "integer",
+                        "description": "Number of base pairs"
+                    },
+                    "accession number": {
+                        "type": "string",
+                        "description": "Accession number",
+                        "examples": [
+                            "OU596126"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
