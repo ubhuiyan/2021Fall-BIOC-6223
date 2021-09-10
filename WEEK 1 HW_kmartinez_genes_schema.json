@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/kmartinez834/BIOC6223/main/Gene%20List%20Schema",
+    "$id": "https://raw.githubusercontent.com/kmartinez834/2021Fall-BIOC-6223/main/WEEK%201%20HW_kmartinez_genes_schema.json",
     "type": "object",
     "title": "Gene List",
     "description": "Structured field for description of base pair length and accession number of a gene.",
